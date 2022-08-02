@@ -4,7 +4,14 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-bg-image' : "url('../public/images/creative-image.jpg')",
+      },
+      fontFamily: {
+        "Manrope": ["Manrope", 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
