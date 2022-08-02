@@ -2,20 +2,21 @@ import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { Link } from "react-scroll";
 import Image from "next/image";
-
+import LogoBlackjo from "../public/blackjo-icon.jpg"
 function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
 		<div>
 			<nav className=" fixed z-20 bg-white w-full ">
 				<div className="w-full">
-					<div className="flex items-center h-20 w-full px-5">
+					<div className="flex items-center h-20 w-full px-5 border-b-2">
 						<div className="flex items-center  sm:mx-10 md:mx-20 justify-between w-full">
                             {/* logo */}
-							<div className="flex justify-center items-center flex-shrink-0 ">
-								<h1 className=" font-bold text-xl cursor-pointer">
+							<div className="flex justify-center items-center flex-shrink-0 -ml-[75px]">
+								{/* <h1 className=" font-bold text-xl cursor-pointer">
 									Blackjo Diorama
-								</h1>
+								</h1> */}
+								<Image src={LogoBlackjo} className="scale-[30%] self-center rounded-full" alt="Blackjo Diorama"></Image>
 							</div>
 
                             {/* items on the center */}

@@ -1,15 +1,20 @@
 import React from "react";
 import Image from "next/dist/client/image";
 import heroImage from "../public/images/creative-image.jpg";
+
 const Hero = () => {
   return (
-    <div>
-      <div className="flex flex-wrap justify-between text-center md:pt-20 pt-28">
-        <div className="w-full md:w-1/2 h-96 min-h-fit shadow-xl relative px-10 ">
-          <div className="w-full h-[80%] mx-auto my-8 ">
-            <h1 className=" text-4xl font-bold font-Manrope text-start h-full py-20">
-              Hi, I am Ghaza <br /> A diorama maker <br /> based in Jakarta
+    <div className="">
+      <div className="flex flex-wrap justify-between text-center md:pt-10 pt-28">
+        {/* left content (text) */}
+        <div className="flex w-full md:w-1/2 h-96 min-h-screen shadow-xl relative px-10">
+          {/* div text */}
+          <div className="flex flex-wrap w-full h-[80%] m-auto px-16">
+            <h1 className="my-auto text-4xl font-medium leading-snug w-full font-Manrope text-start ">
+              Hi, I am <span className="font-bold">Ghaza</span>. <br /> A
+              diorama maker and toys enthusiast <br /> based in Jakarta.
             </h1>
+
             {/* <h4 className=" text-base font-medium font-Manrope text-start  ">
               Since 2014, actively making dioramas as a medium of art
               expression. <br />
@@ -20,16 +25,24 @@ const Hero = () => {
               sentimental impression <br /> as well as an attempt to further
               interpret reality through a reduced scale.
             </h4> */}
+              <a
+                href="#"
+                className="font-semibold text-white py-4 bg-black rounded-md w-40 h-14 text-lg hover:bg-gray-800 duration-200"
+              >
+                Let&apos;s chat!
+              </a>
+   
           </div>
         </div>
 
-        <div className="w-full md:w-1/2 h-auto shadow-xl relative px-10 overflow-hidden">
+        {/* right content (image) */}
+        <div className="flex w-full md:w-1/2 h-screen shadow-xl relative px-10 overflow-hidden">
           <Image
             src={heroImage}
             alt="heroImage"
             layout="fill"
             objectFit="cover"
-            className="cursor-pointer hidden md:block"
+            className="cursor-default"
           />
         </div>
       </div>
