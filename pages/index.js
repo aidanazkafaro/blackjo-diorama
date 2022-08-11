@@ -3,6 +3,7 @@ import Image from "next/image";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Projects from "../components/Projects";
+import ToysPhotography from "../components/ToysPhotography";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Projects />
+      <ToysPhotography />
     </div>
   );
 }

@@ -7,9 +7,9 @@ const Hero = () => {
     <div className="">
       <div className="flex flex-wrap justify-between text-center md:pt-10 pt-28">
         {/* left content (text) */}
-        <div className="flex w-full md:w-1/2 h-96 min-h-screen shadow-xl relative px-10">
+        <div className="flex w-full md:w-1/2 h-96 min-h-screen  relative px-10 ">
           {/* div text */}
-          <div className="flex flex-wrap w-full h-[80%] m-auto px-16">
+          <div className="flex flex-wrap w-full h-[80%] m-auto ml-16">
             <h1 className="my-auto text-4xl font-medium leading-snug w-full font-Manrope text-start ">
               Hi, I am <span className="font-bold">Ghaza</span>. <br /> A
               diorama maker and toys enthusiast <br /> based in Jakarta.
@@ -26,8 +26,10 @@ const Hero = () => {
               interpret reality through a reduced scale.
             </h4> */}
               <a
-                href="#"
-                className="font-semibold text-white py-4 bg-black rounded-md w-40 h-14 text-lg hover:bg-gray-800 duration-200"
+                href="https://wa.me/6281211004621?text=Hi!%20I%20saw%20your%20website%20and%20I'm%20interested%20in%20your%20service%20"
+                target="_blank"
+                rel="noreferrer"
+                className="font-semibold font-Manrope text-white py-4 bg-black rounded-md w-40 h-14 text-lg hover:bg-gray-800 duration-200"
               >
                 Let&apos;s chat!
               </a>
@@ -36,7 +38,7 @@ const Hero = () => {
         </div>
 
         {/* right content (image) */}
-        <div className="flex w-full md:w-1/2 h-screen shadow-xl relative px-10 overflow-hidden">
+        <div className="flex w-full md:w-1/2 h-screen relative px-10 overflow-hidden">
           <Image
             src={heroImage}
             alt="heroImage"
