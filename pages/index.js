@@ -1,9 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
+import AboutMe from "../components/AboutMe";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Order from "../components/Order";
 import Projects from "../components/Projects";
-import ToysPhotography from "../components/ToysPhotography";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -24,7 +27,10 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Projects />
-      <ToysPhotography />
+      <AboutMe />
+      <Order />
+      <Contact />
+      <Footer />
     </div>
   );
 }
