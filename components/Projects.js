@@ -53,17 +53,17 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <div id="projects" className="px-6 md:px-24 pt-16 bg-[#e9e1d6]">
-      <p className="font-Manrope text-sm text-center w-full">PORTFOLIO</p>
-      <h3 className="text-4xl mx-12 font-semibold mb-10 text-center font-Manrope">
+      <p className="wow fadeInUp font-Manrope text-sm text-center w-full" data-wow-delay="0.3s">PORTFOLIO</p>
+      <h3 className="wow fadeInUp text-4xl mx-12 font-semibold mb-10 text-center font-Manrope" data-wow-delay="0.3s">
         Some of My Projects
       </h3>
       {/* project 1 */}
       <div className="w-full h-fit ">
         <div className="h-fit w-full md:pl-32">
-          <h2 className="text-3xl md:text-5xl font-semibold font-Manrope  mt-5">
+          <h2 className="wow fadeInDown text-3xl md:text-5xl font-semibold font-Manrope  mt-5" data-wow-delay="0.5s">
             01.{" "}
           </h2>
-          <h3 className="text-xl md:text-2xl font-medium font-Manrope md:my-5">
+          <h3 className="wow fadeInDown text-xl md:text-2xl font-medium font-Manrope md:my-5" data-wow-delay="1s">
             {" "}
             The Hallway
           </h3>
@@ -108,10 +108,10 @@ const Projects = () => {
 
       <div className="w-full h-fit ">
         <div className="h-fit w-full md:pr-32 text-right">
-          <h2 className="text-3xl md:text-5xl  font-semibold font-Manrope mt-5">
+          <h2 className=" wow fadeInDown text-3xl md:text-5xl  font-semibold font-Manrope mt-5" data-wow-delay="0.5s">
             02.{" "}
           </h2>
-          <h3 className="text-xl md:text-2xl font-medium font-Manrope md:my-5">
+          <h3 className="wow fadeInDown text-xl md:text-2xl font-medium font-Manrope md:my-5" data-wow-delay="1s">
             {" "}
             American Building
           </h3>
@@ -147,10 +147,10 @@ const Projects = () => {
 
       <div className="w-full h-fit ">
         <div className="h-fit w-full md:px-32 text-left ">
-          <h2 className="text-3xl md:text-5xl  font-semibold font-Manrope mt-5">
+          <h2 className="wow fadeInDown text-3xl md:text-5xl  font-semibold font-Manrope mt-5" data-wow-delay="0.5s">
             03.{" "}
           </h2>
-          <h3 className="text-xl md:text-2xl font-medium font-Manrope md:my-5">
+          <h3 className="wow fadeInDown text-xl md:text-2xl font-medium font-Manrope md:my-5" data-wow-delay="1s">
             {" "}
             The Barnyard
           </h3>
@@ -188,10 +188,10 @@ const Projects = () => {
 
       <div className="w-full h-fit ">
         <div className="h-fit w-full md:pr-32 text-right">
-          <h2 className="text-3xl md:text-5xl  font-semibold font-Manrope mt-5">
+          <h2 className="wow fadeInDown text-3xl md:text-5xl  font-semibold font-Manrope mt-5" data-wow-delay="0.5s">
             04.
           </h2>
-          <h3 className="text-xl md:text-2xl font-medium font-Manrope md:my-5">
+          <h3 className="wow fadeInDown text-xl md:text-2xl font-medium font-Manrope md:my-5" data-wow-delay="1s">
             The Cave
           </h3>
         </div>
@@ -222,6 +222,7 @@ const Projects = () => {
               />
             </div>
           </div>
+      <h3 className="font-semibold text-lg my-5">More on my <span className="underline"><a target={"_blank"} rel={"noreferrer"} href="https://www.instagram.com/blackjodiorama/">Instagram</a></span></h3>
         </div>
       </div>
 

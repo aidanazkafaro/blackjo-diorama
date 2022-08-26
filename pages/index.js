@@ -10,6 +10,7 @@ import Projects from "../components/Projects";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
+  
   return (
     <div className={styles.container}>
       <Head>
@@ -18,10 +19,13 @@ export default function Home() {
         <link rel="icon" href="/blackjo-icon.jpg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"/>
         <link
           href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700&display=swap"
           rel="stylesheet"
         />
+        <link rel="stylesheet" href="css/animate.css"/>
+
       </Head>
 
       <Navbar />

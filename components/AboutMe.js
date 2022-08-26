@@ -5,8 +5,8 @@ import profile from "../public/assets/profile.svg";
 const AboutMe = () => {
   return (
     <div id="aboutme" className=" px-6 md:px-24 py-16 bg-[#FFFCEF]">
-      <p className="font-Manrope text-sm text-center w-full">ABOUT ME</p>
-      <h3 className="text-4xl mx-12 font-semibold mb-14 text-center font-Manrope">
+      <p className="wow fadeInDown font-Manrope text-sm text-center w-full" data-wow-delay="0.3s">ABOUT ME</p>
+      <h3 className="wow fadeInDown text-4xl mx-12 font-semibold mb-14 text-center font-Manrope" data-wow-delay="0.3s">
         A Little Background About Me
       </h3>
       <div className="flex flex-wrap">

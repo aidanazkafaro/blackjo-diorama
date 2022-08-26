@@ -16,7 +16,7 @@ function Navbar() {
                 {/* <h1 className=" font-bold text-xl cursor-pointer">
 									Blackjo Diorama
 								</h1> */}
-                <a src={LogoBlackjo} alt="Blackjo Diorama">
+                {/* <img src={LogoBlackjo} alt="Blackjo Diorama">
                   <Link
                     activeClass="Home"
                     to="hero"
@@ -29,7 +29,14 @@ function Navbar() {
                     src={LogoBlackjo}
                     className="scale-[30%] self-center rounded-full"
                   />
-                </a>
+                </img> */}
+                <Link className="cursor-pointer" href="/">
+                  <Image
+                    className="scale-[30%] self-center rounded-full "
+                    src={LogoBlackjo}
+                    alt="Blackjo Diorama"
+                  ></Image>
+                </Link>
               </div>
 
               {/* items on the center */}
@@ -149,10 +156,7 @@ function Navbar() {
         >
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
-              <div
-                ref={ref}
-                className=" mx-4 mr-20 pt-4 pb-4 space-y-1"
-              >
+              <div ref={ref} className=" mx-4 mr-20 pt-4 pb-4 space-y-1">
                 <Link
                   activeClass="Hero"
                   to="hero"
@@ -205,8 +209,6 @@ function Navbar() {
                 >
                   Contact
                 </Link>
-
-
               </div>
             </div>
           )}

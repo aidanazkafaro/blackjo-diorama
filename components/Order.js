@@ -7,8 +7,8 @@ const Order = () => {
 
   return (
     <div id="order" className="px-6 md:px-24 py-16 bg-[#ebd5bd]">
-      <p className="font-Manrope text-sm text-center w-full">ORDER</p>
-      <h3 className="text-4xl mx-12 font-semibold mb-14 text-center font-Manrope">
+      <p className="wow fadeInDown font-Manrope text-sm text-center w-full" data-wow-delay="0.3s">ORDER</p>
+      <h3 className="wow fadeInDown text-4xl mx-12 font-semibold mb-14 text-center font-Manrope" data-wow-delay="0.3s">
         Let Me Realize Your Idea
       </h3>
       <div className="flex flex-wrap  h-fit">

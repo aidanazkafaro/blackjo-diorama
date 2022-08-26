@@ -12,8 +12,8 @@ const Contact = () => {
 
   return (
     <div id="contact" className="px-6 md:px-24 py-16 bg-[white]">
-      <p className="font-Manrope text-sm text-center w-full">CONTACT</p>
-      <h3 className="text-4xl mx-12 font-semibold mb-14 text-center font-Manrope">
+      <p className="wow fadeInDown font-Manrope text-sm text-center w-full" data-wow-delay="0.3s">CONTACT</p>
+      <h3 className="wow fadeInDown text-4xl mx-12 font-semibold mb-14 text-center font-Manrope" data-wow-delay="0.3s">
         Reach Out to Me
       </h3>
       <div className="flex flex-wrap w-full md:w-1/2 mx-auto">
